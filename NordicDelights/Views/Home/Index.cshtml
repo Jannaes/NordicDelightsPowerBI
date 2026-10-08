@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<section class="container py-5">
+    <div class="text-center mb-5">
+        <h1 class="display-4">Nordic Delights Oy</h1>
+        <p class="lead">
+            Bringing Nordic flavors to European businesses.
+        </p>
+    </div>
+
+    <div class="report-card mx-auto" style="max-width: 850px;">
+        <h2>About Us</h2>
+
+        <p>
+            Nordic Delights Oy is a fictional Finnish food and beverage
+            distribution company serving restaurants, retailers,
+            hotels and other business customers across Europe.
+        </p>
+
+        <p>
+            Our business intelligence dashboard provides insights
+            into sales performance, customer segments, products
+            and European market opportunities.
+        </p>
+
+        <a class="btn btn-primary"
+           asp-controller="Home"
+           asp-action="Dashboard">
+            Explore Our Dashboard
+        </a>
+    </div>
+</section>

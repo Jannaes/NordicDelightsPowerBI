@@ -1,0 +1,105 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+/* Nordic Delights - värit ja yleisilme */
+:root {
+    --nd-navy: #17324d;
+    --nd-green: #247b67;
+    --nd-background: #f3f6f8;
+    --nd-text: #263746;
+}
+
+body {
+    background-color: var(--nd-background);
+    color: var(--nd-text);
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* Navigaatio */
+.navbar {
+    background-color: var(--nd-navy) !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+}
+
+    .navbar .navbar-brand,
+    .navbar .nav-link {
+        color: #ffffff !important;
+    }
+
+        .navbar .nav-link:hover {
+            color: #a9dfc8 !important;
+        }
+
+/* Otsikot */
+h1, h2 {
+    color: var(--nd-navy);
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+/* Painikkeet */
+.btn-primary {
+    background-color: var(--nd-green);
+    border-color: var(--nd-green);
+}
+
+    .btn-primary:hover {
+        background-color: #195b4c;
+        border-color: #195b4c;
+    }
+
+/* Raporttikortit */
+.report-card {
+    background: #ffffff;
+    border-radius: 14px;
+    padding: 24px;
+    margin-bottom: 32px;
+    box-shadow: 0 4px 18px rgba(23, 50, 77, 0.08);
+}
+
+    .report-card h2 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    .report-card p {
+        color: #607080;
+    }
+
+    /* Power BI -kehykset */
+    .report-card iframe {
+        border: 1px solid #e0e7ed;
+        border-radius: 8px;
+    }
+
+/* Alatunniste */
+footer {
+    background-color: #e8eef2;
+}
